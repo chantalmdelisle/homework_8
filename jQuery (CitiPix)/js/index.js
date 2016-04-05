@@ -27,12 +27,12 @@ $(document).ready(function() {
     }
     // if the user inputs Los Angeles/LA/LAX change the CSS class to 'la'
     else if (city == 'los angeles' || city == 'la' || city == 'lax') {
-      clearCity;
+      clearCity();
       $('body').addClass('la');
     }
     // if the user inputs Sydney/SYD change the CSS class to 'sydney'
     else if (city == 'sydney' || city == 'syd') {
-      clearCity;
+      clearCity();
       $('body').addClass('sydney');
     }
 
